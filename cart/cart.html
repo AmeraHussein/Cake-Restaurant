@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Restaurant</title>
+    <link rel="stylesheet" href="cart.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <a href="index.html" class="logo"> CAKÉ <br> <span>RESTAURANT</span></a>
+
+        <ul>
+            <li><a href="../index.html" class="tab" id="active">HOME</a></li>
+            <li><a href="../about/about.html" class="tab">ABOUT</a></li>
+            <li><a href="../cakes/cakes.html" class="tab">OUR CAKES</a></li>
+            <li><a href="../contact/contact.html" class="tab">CONTACT</a></li>
+        </ul>
+
+        <div class="buttons">
+            <a href="../cart/cart.html"><button class="signin">Cart</button></a>
+            <a href="../sign in/signin.html"><button class="signin">Account</button></a>
+        </div>
+    </nav>
+
+    <!-- nav2 -->
+    <div class="nav2">
+        <ul>
+            <li><a href="../index.html" class="tab" id="active">HOME</a></li>
+            <li><a href="../about/about.html" class="tab">ABOUT</a></li>
+            <li><a href="../cakes/cakes.html" class="tab">OUR CAKES</a></li>
+            <li><a href="../contact/contact.html" class="tab">CONTACT</a></li>
+        </ul>
+    </div>
+    <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+    <!-- header -->
+    <header>
+        <h1>Your Shopping Cart</h1>
+        <p>Review your selected items before proceeding to checkout.</p>
+    </header>
+    <!-- ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ -->
+
+    <main>
+        <!-- left -->
+        <div class="left">
+
+            <!-- head -->
+            <div class="head">
+                <p class="product-details">Product Details</p>
+                <p class="quality-p">Quantity</p>
+                <p class="price-p">Price</p>
+                <p class="subtotal-p">Subtotal</p>
+            </div>
+            <!--ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ  -->
+
+            <!-- Chocolate Bliss Cake  -->
+            <div class="content-div">
+
+                <div class="product">
+                    <img src="../images/chocolate.jpg" alt="omeg-3">
+                    <div class="img-text">
+                        <h3> Chocolate Cake </h3>
+                        <div class="star">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="M480-644v236l96 74-36-122 90-64H518l-38-124ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Z" />
+                                </svg>
+                            </div>
+
+                            <p>(128)</p>
+
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px"
+                                fill="#f7f3ed">
+                                <path
+                                    d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                            <p>In Stock</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="quantity">
+
+                        <button> - </button>
+
+                        <input type="number" name="quantity" id="quantity">
+
+                        <button> + </button>
+
+                    </div>
+
+                    <div class="price">
+                        <h2>$24.99</h2>
+                    </div>
+
+                    <div class="subtotal">
+                        <button class="delete-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" />
+                            </svg>
+                        </button>
+
+                        <h2>$49.98</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chocolate Bliss Cake  -->
+            <div class="content-div">
+
+                <div class="product">
+                    <img src="../images/red velvet.jpg" alt="">
+                    <div class="img-text">
+                        <h3> Red Velvet Cake </h3>
+                        <div class="star">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="M480-644v236l96 74-36-122 90-64H518l-38-124ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Z" />
+                                </svg>
+                            </div>
+
+                            <p>(158)</p>
+
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px"
+                                fill="#f7f3ed">
+                                <path
+                                    d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                            <p>In Stock</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="quantity">
+
+                        <button>
+                            -
+                        </button>
+
+                        <input type="number" name="quantity" id="quantity">
+
+                        <button>
+                            +
+                        </button>
+
+                    </div>
+
+                    <div class="price">
+                        <h2>$20.99</h2>
+                    </div>
+
+                    <div class="subtotal">
+                        <button class="delete-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" />
+                            </svg>
+                        </button>
+
+                        <h2>$59.98</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chocolate Bliss Cake  -->
+            <div class="content-div">
+
+                <div class="product">
+                    <img src="../images/Strawberrry.jpg" alt="">
+                    <div class="img-text">
+                        <h3> Strawberry Cake </h3>
+                        <div class="star">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#c96d11">
+                                    <path
+                                        d="M480-644v236l96 74-36-122 90-64H518l-38-124ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Z" />
+                                </svg>
+                            </div>
+
+                            <p>(125)</p>
+
+                        </div>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px"
+                                fill="#f7f3ed">
+                                <path
+                                    d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                            </svg>
+                            <p>In Stock</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details">
+                    <div class="quantity">
+
+                        <button>
+                            -
+                        </button>
+
+                        <input type="number" name="quantity" id="quantity">
+
+                        <button>
+                            +
+                        </button>
+
+                    </div>
+
+                    <div class="price">
+                        <h2>$24.99</h2>
+                    </div>
+
+                    <div class="subtotal">
+                        <button class="delete-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#1f1f1f">
+                                <path
+                                    d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" />
+                            </svg>
+                        </button>
+
+                        <h2>$50.98</h2>
+                    </div>
+                </div>
+            </div>
+            <!--ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ  -->
+            <!-- continue-button -->
+            <button class="continue-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px"
+                    fill="#f7f3ed">
+                    <path d="m330-444 201 201-51 51-288-288 288-288 51 51-201 201h438v72H330Z" />
+                </svg>
+                Continue Shopping
+            </button>
+
+        </div>
+
+        <!--ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ  -->
+
+
+        <!-- right -->
+        <div class="right">
+
+            <h2 class="summary-title">Order Summary</h2>
+
+            <div class="summary-div">
+                <p>Subtotal (3 cakes)</p>
+                <h3>$100.48</h3>
+            </div>
+
+            <div class="summary-div">
+                <p class="color">Discount (10%)</p>
+                <h3 class="color">-$10.05</h3>
+            </div>
+
+            <div class="summary-div">
+                <p>Standard Delivery</p>
+                <h3>$5.99</h3>
+            </div>
+
+            <div class="total-order">
+                <h2>Total Order</h2>
+                <div>
+                    <h2 class="color">$96.42</h2>
+                    <p>Includes all applicable taxes</p>
+                </div>
+            </div>
+
+            <form action="">
+                <label>Promo Code</label>
+
+                <div>
+                    <input type="text" name="code" id="code" placeholder="Enter Code">
+                    <button class="apply-button" type="submit">Apply</button>
+                </div>
+
+                <button class="proceed-button">
+                    Proceed to checkout
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#371e1b">
+                        <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                    </svg>
+                </button>
+
+            </form>
+
+            <div class="lock">
+                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
+                    fill="#f7f3ed">
+                    <path
+                        d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm296.5-143.5Q560-327 560-360t-23.5-56.5Q513-440 480-440t-56.5 23.5Q400-393 400-360t23.5 56.5Q447-280 480-280t56.5-23.5ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z" />
+                </svg>
+                <p>Secure SSL Encrypted Checkout. Your medical and payment data is protected.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <!-- footer top -->
+        <div class="top">
+            <div class="gradient"></div>
+
+            <div class="content">
+                <p class="p1">IT’S MORE THAN CAKE</p>
+                <h2>MAKE SOMETHING <br> WORTH EMEMBERING.</h2>
+
+
+                <a href=""><button type="submit" class="create"> CREATE YOUR CAKE
+                        <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px"
+                            fill="#ffffff">
+                            <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                        </svg>
+                    </button></a>
+
+                <p class="p2">We respect your privacy. Unsubscribe at any time.</p>
+            </div>
+        </div>
+
+        <!-- footer bottom -->
+        <div class="bottom">
+
+            <!-- bottom_right -->
+            <div class="bottom_right">
+                <a href="#" class="logo">CAKE RESTAURANT</a>
+                <p>Experience the finest culing delights crafted by our professionate chefs using the freshest
+                    ingredients.</p>
+
+                <div class="icons">
+
+                    <a href="" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+            </div>
+
+            <!-- bottom_left -->
+            <div class="bottom_left">
+                <!-- bottom_links -->
+                <div class="middle">
+                    <h4>Links</h4>
+                    <div class="links">
+                        <a href="../index.html" class="link">Home</a></li>
+                        <a href="../about/about.html" class="link">About</a></li>
+                        <a href="../cakes/cakes.html" class="link">Our Cakes</a></li>
+                        <a href="../reviews/reviews.html" class="link">Reviews</a></li>
+                        <a href="../contact/contact.html" class="link">Contact</a></li>
+                    </div>
+                </div>
+
+                <!-- bottom_support -->
+                <div class="support">
+                    <h4>Support</h4>
+                    <div class="links">
+                        <a href="" class="link">Privacy</a></li>
+                        <a href="" class="link">Terms & Conditions</a></li>
+                        <a href="cart/cart.html" class="link">Reservations</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- bottom_contact -->
+                <div class="bottom_contact" id="footer_bottom">
+                    <h4>Contact</h4>
+                    <p>123 Resturant Street Food City.</p>
+                    <a href="tel:+2 000 000 000">+2 000 000 000</a>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  -->
+        <div class="copyrights">
+            <hr>
+
+            <p>&copy; 2026 Cake Restaurant. All rights reserved.</p>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+    <!-- js link -->
+    <script src="/script.js"></script>
+</body>
+
+</html>

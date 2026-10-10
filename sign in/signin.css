@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Readex+Pro:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f3ed;
+    position: relative;
+    color: white;
+}
+
+body,
+button,
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+.logo {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav bar */
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #371e1b;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.logo span {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    color: white;
+}
+
+.tab {
+    color: white;
+}
+
+.tab:hover,
+.bottom_contact a:hover,
+.link:hover,
+#active {
+    text-decoration: underline;
+    color: #2e1a17;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px #0000004d;
+    transition: .5s;
+
+}
+
+#active:hover {
+    color: white;
+    background-color: #371e1b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin,
+.create, .form button  {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.signin {
+    background-color: white;
+    color: #371e1b;
+    cursor: pointer;
+
+}
+
+
+.create, .form button {
+    background-color: #371e1b;
+    color: white;
+    border: .5px solid white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.create:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #442723;
+    border: 1px solid #371e1b;
+}
+
+.signin:hover {
+    cursor: pointer;
+    background-color: #371e1b;
+    color: white;
+    border: 1px solid white;
+}
+
+/* nav2 */
+.nav2 {
+    display: none;
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* main */
+main {
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #371e1b;
+    color: #f7f3ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.left {
+    width: 50%;
+    height: 97.2%;
+    background: url(../images/CELEBERATING.jpg) no-repeat center/ cover;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    color: #371e1b;
+}
+
+.left p,
+.left h1 {
+    margin-top: 0;
+}
+
+.form {
+    width: 80%;
+    height: 100%;
+    color: #f7f3ed;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    text-align: left;
+    margin: 15px 0;
+
+}
+
+#first,
+#last,
+#mail,
+#phone,
+#pass,
+#copass {
+    width: 90%;
+    padding: 8px 10px;
+    margin: 7px 0 17px 0;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+    color: #371e1b;
+}
+
+#mail {
+    width: 63%;
+}
+
+#phone {
+    width: 62%;
+}
+
+#copass {
+    width: 56%;
+}
+
+#pass {
+    width: 71%;
+}
+
+#checkbox {
+    margin: 20px;
+    padding: 3px;
+}
+
+.form a {
+    color: #f7f3ed;
+    text-decoration: underline;
+}
+
+.form a:hover {
+    cursor: pointer;
+}
+
+
+.form button {
+    margin: auto;
+}
+
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* footer */
+footer {
+    background-color: #371e1b;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* top footer */
+.top {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/delicious-decorated-cake.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+.top h2 {
+    margin: 5px;
+
+}
+
+.p1 {
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 12px;
+}
+
+footer .top .gradient {
+    height: 300px;
+    width: 100%;
+    background-color: #341e1b5f;
+    position: absolute;
+    top: 0;
+}
+
+footer .top .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    z-index: 1;
+
+}
+
+
+/* footer bottom */
+.bottom {
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* bottom_right */
+.bottom_right,
+.middle div,
+.support div,
+.bottom_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+
+.bottom_right .logo {
+    font-size: 17px;
+}
+
+.bottom_right p {
+    font-size: 15px;
+    font-weight: 300;
+    width: 250px;
+}
+
+.icon {
+    color: white;
+    font-size: 17px;
+}
+
+/* bottom_left */
+.bottom_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 250px;
+}
+
+/* bottom_middle */
+h4 {
+    font-weight: 300;
+}
+
+.link {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* bottom_info */
+.bottom_contact p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.bottom_contact a {
+    color: white;
+    display: block;
+    margin-bottom: 9px;
+    font-weight: 300;
+}
+
+/* copyrights */
+.copyrights p {
+    text-align: center;
+    font-weight: 300;
+    padding: 20px;
+
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* media quary */
+@media screen and (min-width:300px) and (max-width:800px) {
+
+    /* nav bar */
+    nav {
+        width: 99%;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        font-size: 23px;
+        line-height: 15px;
+    }
+
+    .logo span {
+        font-size: 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .signin,
+    .order,
+    .subscribe {
+        padding: 6px 10px;
+        font-size: 15px;
+
+    }
+
+    /* nav2 */
+    .nav2 {
+        width: 100%;
+        background-color: #371e1b;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav2 ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        list-style: none;
+        font-size: 10px;
+    }
+    /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* header */
+header h1{
+    font-size: 22px;
+}
+header p {
+    font-size: 12px;
+}
+    /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* main */
+
+.left{
+    display: none;
+}
+.form{
+    width: 90%; 
+    padding: 20px;
+    height: 600px;
+
+}
+
+.ftext h2{
+    font-size:18px;
+}
+.ftext p{
+    font-size: 10px;
+}
+
+#first, #last, #mail, #phone, #pass, #copass{
+    width: 90%;
+}
+label{
+    font-size: 13px;
+}
+#checkbox {
+    margin: 2px;
+}
+.checkbox{
+    margin-bottom: 10px ;
+}
+.form button {
+    margin-bottom: 0;
+}
+
+.fbottom p{
+    margin: 5px;
+}
+
+    /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+        /* footer */
+    .bottom {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .bottom_left {
+        gap: 10px;
+        margin: auto;
+    }
+
+    .bottom_right p {
+        font-size: 12px;
+        width: 99%;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .middle h4,
+    .support h4,
+    .bottom_contact h4 {
+        font-size: 13px;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .create {
+        font-size: 10px;
+    }
+
+    .copyrights p {
+        font-size: 12px;
+    }
+}

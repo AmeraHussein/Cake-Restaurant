@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Readex+Pro:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f3ed;
+    position: relative;
+    color: white;
+}
+
+body,
+button,
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+.logo {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav bar */
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #371e1b;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.logo span {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+    color: white;
+}
+
+.tab {
+    color: white;
+}
+
+.tab:hover,
+.bottom_contact a:hover,
+.link:hover,
+#active {
+    text-decoration: underline;
+    color: #2e1a17;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px #0000004d;
+    transition: .5s;
+
+}
+
+#active:hover {
+    color: white;
+    background-color: #371e1b;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin,
+.order,
+.menu,
+.create {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.signin,
+.best_Content_div button:hover {
+    background-color: white;
+    color: #371e1b;
+    cursor: pointer;
+
+}
+
+
+.create {
+    background-color: #371e1b;
+    color: white;
+    border: .5px solid white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.create:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #442723;
+    border: 1px solid #371e1b;
+}
+
+.signin:hover {
+    cursor: pointer;
+    background-color: #371e1b;
+    color: white;
+    border: 1px solid white;
+}
+
+/* nav2 */
+.nav2 {
+    display: none;
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+/* best sellers */
+.best h2,
+.best h3,
+.best p {
+    color: #371e1b;
+}
+
+.best {
+    padding: 20px;
+}
+
+/* best head */
+.best_head,
+.best_content,
+.price,
+.star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best_content {
+    flex-wrap: wrap;
+}
+
+.best_head {
+    margin: 20px 0;
+    padding: 7px;
+    border-radius: 20px;
+    background-color:  #371e1b;
+}
+
+.best_head h2{
+    color: #f7f3ed;
+
+}
+
+.best_Content_div h3,
+.price,
+.star {
+    margin: 0;
+}
+
+/* best_Content_div */
+.best_Content_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #371e1b;
+    width: 20%;
+    height: 370px;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -3px #0000004d;
+    position: relative;
+    background-color: #371e1b;
+}
+
+.best_Content_div:hover {
+    cursor: pointer;
+    transform: translateY(10px);
+    transition: .5s;
+}
+
+.best_Content_div img {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+}
+
+.best_Content_div h3,
+.best_Content_div p {
+    color: white;
+}
+
+.best_Content_div .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #371e1b;
+    border: 1px solid white;
+}
+
+.price svg:hover {
+    fill: #371e1b;
+}
+
+.price h3 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.heart:hover {
+    fill: #c71906;
+    cursor: pointer;
+}
+
+.price .icon,
+.star  {
+    margin: 0 5px;
+}
+
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+/* footer */
+footer {
+    background-color: #371e1b;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* top footer */
+.top {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/delicious-decorated-cake.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+.top h2 {
+    margin: 5px;
+
+}
+
+.p1 {
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 12px;
+}
+
+footer .top .gradient {
+    height: 300px;
+    width: 100%;
+    background-color: #341e1b5f;
+    position: absolute;
+    top: 0;
+}
+
+footer .top .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    z-index: 1;
+
+}
+
+
+/* footer bottom */
+.bottom {
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* bottom_right */
+.bottom_right,
+.middle div,
+.support div,
+.bottom_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+
+.bottom_right .logo {
+    font-size: 17px;
+}
+
+.bottom_right p {
+    font-size: 15px;
+    font-weight: 300;
+    width: 250px;
+}
+
+.icon {
+    color: white;
+    font-size: 17px;
+}
+
+/* bottom_left */
+.bottom_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 250px;
+}
+
+/* bottom_middle */
+h4 {
+    font-weight: 300;
+}
+
+.link {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* bottom_info */
+.bottom_contact p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.bottom_contact a {
+    color: white;
+    display: block;
+    margin-bottom: 9px;
+    font-weight: 300;
+}
+
+/* copyrights */
+.copyrights p {
+    text-align: center;
+    font-weight: 300;
+    padding: 20px;
+
+}/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+/* media quary */
+@media screen and (min-width:300px) and (max-width:800px) {
+
+    /* nav bar */
+    nav {
+        width: 99%;
+        padding: 5px 10px;
+    }
+
+    .logo {
+        font-size: 23px;
+        line-height: 15px;
+    }
+
+    .logo span {
+        font-size: 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .signin,
+    .order,
+    .subscribe {
+        padding: 6px 10px;
+        font-size: 15px;
+
+    }
+
+    /* nav2 */
+    .nav2 {
+        width: 100%;
+        background-color: #371e1b;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav2 ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        list-style: none;
+        font-size: 10px;
+    }
+
+
+
+    /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+    /* header */
+
+    h1 {
+        width: 70%;
+        font-size: 20px;
+        background-position: right;
+    }
+
+    header span {
+        font-size: 14px;
+    }
+
+    header p {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .order,
+    .menu {
+        font-size: 10px;
+    }
+
+    /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+    /* main */
+
+
+
+    /* best sellers*/
+    .best h2 {
+        font-size: 17px;
+    }
+
+    .best_head svg {
+        width: 15px;
+    }
+
+    .best_head h3 {
+        font-size: 10px;
+    }
+
+    .best_Content {
+        flex-direction: column;
+    }
+
+    .best_Content_div {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .best_Content_div h3 {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+
+
+    .star svg {
+        width: 10px;
+    }
+
+    .price {
+        justify-content: left;
+
+    }
+
+    .price h3 {
+        font-size: 23px;
+    }
+
+    .best_Content_div .icon {
+        width: 30px;
+        padding: 5px;
+    }
+
+    
+        /* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+    /* footer */
+    .bottom {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .bottom_left {
+        gap: 10px;
+        margin: auto;
+    }
+
+    .bottom_right p {
+        font-size: 12px;
+        width: 99%;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .middle h4,
+    .support h4,
+    .bottom_contact h4 {
+        font-size: 13px;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .create {
+        font-size: 10px;
+    }
+
+    .copyrights p {
+        font-size: 12px;
+    }
+}
